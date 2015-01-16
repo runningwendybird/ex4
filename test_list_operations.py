@@ -115,7 +115,7 @@ class TestListOperations(unittest.TestCase):
         self.assertEqual(self.notes, ['Do', 'Re', 'Ti', 'Do'])
         self.assertEqual(self.multiples, [0, 3, 24, 27])
 
-    ## Tests for Part 2 ###
+    # Tests for Part 2 ###
 
     def test_2_A_custom_len(self):
         self.assertEqual(custom_len(self.months), 12)
